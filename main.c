@@ -1,24 +1,9 @@
 #include <stdio.h>
 int main(void) {
   int i,j,k;
-  //int A[5][6],B[6][3];    //For Real Program !!!
+  int A[5][6],B[6][3];    //For Real Program !!!
   int Sum[5][3] = {{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0}};
-  int A[5][6] = {     //For Test Program !!!
-    {1,2,3,4,5,6},
-    {2,3,4,5,6,7},
-    {3,4,5,6,7,8},
-    {4,5,6,7,8,9},
-    {5,6,7,8,9,10}
-  };
-  int B[6][3] = {
-    {1,2,3},
-    {2,3,4},
-    {3,4,5},
-    {4,5,6},
-    {5,6,7},
-    {6,7,8}
-  };
-  printf("\n\tProgram for Even Number !!!\n\n");/*
+  printf("\n\tProgram for Even Number !!!\n\n");
   //A[5][6] !!
   for(i=0;i<5;i++) {
     printf("Data A[%d][0-5]\n",i);
@@ -36,7 +21,7 @@ int main(void) {
       scanf("%d",&B[i][j]);
     }
     printf("\n");
-  }*/
+  }
   //Show Value Input !!!
   printf("Number A[5][6]\n");
   for(i=0;i<5;i++) {
